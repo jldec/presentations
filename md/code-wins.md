@@ -1,6 +1,6 @@
 # code wins
 
-## for eric and chris
+## code wins
 ![](/images/boston.jpg)
 
 ## code wins
@@ -71,7 +71,7 @@ and forking of GH
 - Try editing the file [here]()
   (click the little editor pencil icon)
 - it's easy, even a mckinsey director could do it
-  (OK, he'd actually have his bag carrier do it)
+  (OK, he'd actually have his bag carrier do it...)
 
 ## so what?
 - source enables github-like collaboration and version control

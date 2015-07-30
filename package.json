@@ -1,18 +1,14 @@
 {
   "name": "jldec-presentations",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "pub-server and pubblz presentations",
   "main": "server.js",
   "dependencies": {
-    "pub-server": "^1.7.14",
-    "pub-theme-shower-ribbon": "^1.4.0"
+    "pub-theme-shower-ribbon": "^1.5.3"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/jldec/presentations.git"
-  },
-  "engines": {
-    "node": "0.10.x"
   },
   "author": "jurgen leschner",
   "license": "MIT"

@@ -27,7 +27,7 @@
 
 ## So where's this editor?
 - umm
-- jens demo
+
 
 ## And that content you just updated
 
@@ -35,7 +35,7 @@
 
 ## Yes, a source file (think github)
 - like this
-- another save
+
 
 ## The pub format
 

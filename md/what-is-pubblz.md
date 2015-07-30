@@ -13,7 +13,6 @@ a new tool for publishing
 ## Edit in Source
 - Store **text** content in **text files**
 - Using **Markdown** which is EASY and SIMPLE
-
 ## Publish to HTML
 - **web browsers** are ubiquitous
 - HTML is capable of rendering **beautiful published content**
