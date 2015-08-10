@@ -7,7 +7,6 @@
 - accessible async
 - great for light, fast HTTP servers
 
-
 ## 2. npm install(x), require('x')
 - catalyst for a new javascript ecosystem
 - successfully sharing and re-using npm modules
@@ -31,14 +30,15 @@
 - {{helper}} calls function helper() -> returns something
 - {{#blockHelper}} template {{#blockHelper}} calls function blockHelper()
 - block helpers iterate over the included template
+
 ## 5. express
 - the "batteries" for building websites with node.js
 - with origins in REST and ruby DSLs
 - sinatra: `get '/user/:id' do`
-- express: `app.get('/user/:id', function (req, res)`
+- express: `app.get('/user/:id', function (req, res, next)`
 - extensible via middleware modules for sessions, compression etc
 
-## pub-server
+## pub-server config
 - with pub-server a wider audience can enjoy these superpowers
 - zero-conf express (batteries included)
 - markdown based static site generator and CMS

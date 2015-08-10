@@ -22,8 +22,8 @@
 
 ## quote
 ```text
-from:	christopher.mcewan@bigpond.com
-date:	Tue, Apr 21, 2015 at 5:54 AM
+from: senior-management-consultant
+date: Tue, Apr 21, 2015 at 5:54 AM
 
 If and until we figure out how to easily translate
 from the consulting language (Microsoft Office)
@@ -68,10 +68,7 @@ and forking of GH
 - ergo *publishing from source*
 
 ## if you don't believe me
-- Try editing the file [here]()
-  (click the little editor pencil icon)
-- it's easy, even a mckinsey director could do it
-  (OK, he'd actually have his bag carrier do it...)
+- Try editing the file [here](/pub/)
 
 ## so what?
 - source enables github-like collaboration and version control

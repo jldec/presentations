@@ -10,7 +10,12 @@
   padding:0;
 }
 
-.slide code { margin:2em 4em; font-size:smaller; }
+.slide pre code {
+  width: 120%;
+  font-size: 0.8em;
+  line-height: 1.8;
+  overflow: hidden;
+}
 
 .slide.cover h2 {
   margin: 30px 0 0;
@@ -33,4 +38,12 @@ body.superpowers .slide>div {
   padding-top:10px5px;
   height:535px;
   line-height:55px;
+}
+
+body.boston-js .cover h2 {
+  margin: 400px 300px 0 0;
+}
+
+body.boston-js .cover p {
+  margin-right: 300px;
 }

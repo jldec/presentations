@@ -5,14 +5,13 @@ name: BostonJS
 ---- #cover ----
 
 ![](/images/water.jpg)
-# pub-server demo
+## pub-server demo
 BostonJS meetup - July 30, 2015
 
 
 ---- #overview ----
 
 # pub-server
-
 - Static site generator (like Jekyll) with editor.
 - Content lives in **markdown** fragments.
 - Designs live in **handlebars** templates and CSS.
@@ -72,7 +71,7 @@ function compileTemplates(templateFragments) {
 
 ---- #render-page ----
 
-## renderPage block helper
+## renderPage helper
 
 ```js
 handlebars.registerHelper('renderPage', function() {
@@ -101,7 +100,7 @@ handlebars.registerHelper('renderPage', function() {
 
 ---- #render-html ----
 
-## html block helper
+## html helper
 
 ```js
 hb.registerHelper('html', function() {
