@@ -7,7 +7,9 @@ var opts = module.exports = {
 
   staticPaths: [
     { path:'./images', route:'/images' },
-    { path:'./static' }
+    { path:'./static' },
+    './.gitignore',
+    './.nojekyll'
   ],
 
   pkgs: [
