@@ -17,6 +17,13 @@ var opts = module.exports = {
     'pub-pkg-highlight'
   ],
 
+  outputs: [
+    {
+      path:'./out',
+      relPaths:true
+    }
+  ],
+
   injectCss: '/css/extra.css',
   noRobots: true
 }
