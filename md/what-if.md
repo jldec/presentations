@@ -27,7 +27,7 @@
 
 ## So where's this editor?
 - umm
-
+- here with HP [google](www.google.com)
 
 ## And that content you just updated
 
@@ -35,7 +35,7 @@
 
 ## Yes, a source file (think github)
 - like this
-
+- with HP at coffee shop
 
 ## The pub format
 
