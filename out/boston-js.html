@@ -20,8 +20,9 @@
 <nav id="nav">
 <ul><li>=
 <ul>
+<li><a href="./">10 min story</a></li>
 <li><a href="./boston-js">BostonJS</a></li>
-<li><a href="./">github demo</a></li>
+<li><a href="./github">github demo</a></li>
 <li><a href="./code-wins">code wins</a></li>
 <li><a href="./pub-config">pub-config</a></li>
 <li><a href="./superpowers">superpowers</a></li>
@@ -60,7 +61,7 @@
 <div data-render-html="/boston-js#generator"><h2 id="generator">Generator</h2>
 <pre><code class="lang-js">var generator = this;
 generator.load = function load(cb) {
-  require(&#39;./getsources&#39;)(function(err, fragments) {
+  generator.getSources(function(err, fragments) {
     compilePages(pageFragments)
     compileTemplates(templateFragments)
     generator.emit(&#39;loaded&#39;)
