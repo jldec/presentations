@@ -26,14 +26,19 @@
 ## Yes!
 
 ## So where's this editor?
-- umm
+- umm...
+
 
 ## And that content you just updated
 
 ## that was in a text file?
 
+
+
 ## Yes, a source file (think github)
 - like this
+
+
 
 ## The pub format
 

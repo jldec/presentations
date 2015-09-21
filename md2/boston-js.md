@@ -26,7 +26,7 @@ BostonJS meetup - July 30, 2015
 ```js
 var generator = this;
 generator.load = function load(cb) {
-  require('./getsources')(function(err, fragments) {
+  generator.getSources(function(err, fragments) {
     compilePages(pageFragments)
     compileTemplates(templateFragments)
     generator.emit('loaded')
