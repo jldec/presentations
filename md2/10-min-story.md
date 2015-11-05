@@ -74,7 +74,6 @@ background-image: /images/run2.jpg
 
 # So where's this editor???
 - ummm
-- DEMO for Bob
 
 
 ---- ----
@@ -84,7 +83,6 @@ background-image: /images/run2.jpg
 ---- ----
 
 ## That was in a text file?
-- DEMO also
 
 
 ---- ----
@@ -101,7 +99,7 @@ background-image: /images/run2.jpg
     ---- /page1 ----
     data: text value
 
-    # markdown markdown markdown markdown
+    # markdown
 
     ---- /page2 ----
 
@@ -114,7 +112,7 @@ background-image: /images/run2.jpg
 - Themable static site generator + editor
 - Better WordPress, fast, secure, no database  
 - Target developers & technical designers
-- Totally free: hosting on Github Pages
+- Totally free: hosting on GitHub Pages
 - Paid hosting for non-devs with add-ons
 
 
