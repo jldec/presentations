@@ -6,9 +6,9 @@
 ## code wins
 - this term is used in the context of software project management
 - it usually means that working code wins over planning
-- or, as at facebook, [code wins over arguments][1]
+- or, as at facebook, [code wins arguments][1]
 
-[1]: http://www.slate.com/blogs/browbeat/2012/02/01/facebook_s_ipo_filing_reveals_how_zuckerberg_and_his_employees_talk.html
+[1]: https://www.wired.com/2012/02/zuck-letter/
 
 ## but, there's another meaning to "code wins"
 
@@ -73,7 +73,7 @@ and forking of GH
 ## so what?
 - source enables github-like collaboration and version control
 - source lets you publish the same content to different media or devices
-- source enables new [body plans](http://en.wikipedia.org/wiki/Body_plan)
+- source enables new [body plans](https://en.wikipedia.org/wiki/Body_plan)
   for new kinds of content, published in new ways
 
 ## in other words...

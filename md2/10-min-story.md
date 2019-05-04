@@ -11,7 +11,7 @@ name: 10 min story
 background-image: /images/run2.jpg
 
 # Who am I?
-- http://blog.pubblz.com/about
+- https://blog.pubblz.com/about
 - Develop for the Web
 - Focus on Architecture and User experience
 - Used to work at Microsoft - Word 1.0a
@@ -75,7 +75,6 @@ background-image: /images/run2.jpg
 # So where's this editor???
 - ummm
 
-
 ---- ----
 
 ## And that content you just updated
@@ -124,7 +123,7 @@ background-image: /images/run2.jpg
 - Free if you have a github account
 - Paid $5/mo with private sharing
 - Professional $25/mo blog publishing for businesses
-- http://about.pubblz.com/photo
+- https://about.pubblz.com/photo
 
 ---- ----
 background-image: /images/boston.jpg

@@ -73,8 +73,8 @@ function compileTemplates(templateFragments) {
 
 ## renderPage helper
 
-```jsssss
-handlebsssssars.registerHelper('renderPage', function() {
+```js
+handlebars.registerHelper('renderPage', function() {
   var template = pageTemplate(this)
   return '<div data-render-page="' + esc(template) + '">' +
          generator.template$[templateName](this)

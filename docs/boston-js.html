@@ -11,7 +11,7 @@
 <title>BostonJS</title>
 <link rel="stylesheet" href="./shower/ribbon/styles/screen.css">
 <link rel="stylesheet" href="./css/pub-theme-shower-ribbon.css">
-<link rel="stylesheet" href="./css/highlight-github-0.2.3.css">
+<link rel="stylesheet" href="./css/highlight-9.15.6-default.css">
 <link rel="stylesheet" href="./css/extra.css">
 </head>
 <body class="list">
@@ -59,7 +59,7 @@
 
 <section id="generator" class="slide"><div>
 <div data-render-html="/boston-js#generator"><h2 id="generator">Generator</h2>
-<pre><code class="lang-js">var generator = this;
+<pre><code class="language-js">var generator = this;
 generator.load = function load(cb) {
   generator.getSources(function(err, fragments) {
     compilePages(pageFragments)
@@ -67,29 +67,27 @@ generator.load = function load(cb) {
     generator.emit(&#39;loaded&#39;)
     cb()
   })
-}
-</code></pre>
+}</code></pre>
 </div>
 
 </div></section>
 
 <section id="compile-templates" class="slide"><div>
 <div data-render-html="/boston-js#compile-templates"><h2 id="compiletemplates">compileTemplates</h2>
-<pre><code class="lang-js">function compileTemplates(templateFragments) {
+<pre><code class="language-js">function compileTemplates(templateFragments) {
   u.each(templateFragments, function(fragment) {
     var name = fragment._href.slice(1,-4)
     var template = fragment._txt
     generator.template$[name] = handlebars.compile(template)
   })
-}
-</code></pre>
+}</code></pre>
 </div>
 
 </div></section>
 
 <section id="layout-template" class="slide"><div>
 <div data-render-html="/boston-js#layout-template"><h2 id="sample-layout-template">Sample Layout Template</h2>
-<pre><code class="lang-html">&lt;!DOCTYPE html&gt;
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
   {{{injectCss}}}
@@ -98,28 +96,26 @@ generator.load = function load(cb) {
   {{{renderPage}}}
   {{{injectJs}}}
 &lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
+&lt;/html&gt;</code></pre>
 </div>
 
 </div></section>
 
 <section id="render-page" class="slide"><div>
 <div data-render-html="/boston-js#render-page"><h2 id="renderpage-helper">renderPage helper</h2>
-<pre><code class="lang-jsssss">handlebsssssars.registerHelper(&#39;renderPage&#39;, function() {
+<pre><code class="language-js">handlebars.registerHelper(&#39;renderPage&#39;, function() {
   var template = pageTemplate(this)
   return &#39;&lt;div data-render-page=&quot;&#39; + esc(template) + &#39;&quot;&gt;&#39; +
          generator.template$[templateName](this)
          &#39;&lt;/div&gt;&#39;;
-});
-</code></pre>
+});</code></pre>
 </div>
 
 </div></section>
 
 <section id="default-page-template" class="slide"><div>
 <div data-render-html="/boston-js#default-page-template"><h2 id="sample-page-template">Sample Page Template</h2>
-<pre><code class="lang-html">&lt;div class=&quot;container&quot;&gt;
+<pre><code class="language-html">&lt;div class=&quot;container&quot;&gt;
   {{{html}}}
 
   {{#each _fragments}}
@@ -127,27 +123,25 @@ generator.load = function load(cb) {
       {{{html}}}
     &lt;/section&gt;
   {{/each}}
-&lt;/div&gt;
-</code></pre>
+&lt;/div&gt;</code></pre>
 </div>
 
 </div></section>
 
 <section id="render-html" class="slide"><div>
 <div data-render-html="/boston-js#render-html"><h2 id="html-helper">html helper</h2>
-<pre><code class="lang-js">hb.registerHelper(&#39;html&#39;, function() {
+<pre><code class="language-js">hb.registerHelper(&#39;html&#39;, function() {
   return &#39;&lt;div data-render-html=&quot;&#39; + esc(this._href) + &#39;&quot;&gt;&#39; +
          renderMarkdown(this._txt) +
          &#39;&lt;/div&gt;&#39;
-});
-</code></pre>
+});</code></pre>
 </div>
 
 </div></section>
 
 <section id="server" class="slide"><div>
 <div data-render-html="/boston-js#server"><h2 id="server">Server</h2>
-<pre><code class="lang-js">generator.load(function() {
+<pre><code class="language-js">generator.load(function() {
   require(&#39;watch-sources&#39; )()
   require(&#39;express&#39;       )()
   require(&#39;serve-sockets&#39; )()
@@ -157,15 +151,14 @@ generator.load = function load(cb) {
   require(&#39;serve-statics&#39; )()
   require(&#39;handle-errors&#39; )()
   server.http.listen(opts.port)
-})
-</code></pre>
+})</code></pre>
 </div>
 
 </div></section>
 
 <section id="editor" class="slide"><div>
 <div data-render-html="/boston-js#editor"><h2 id="editor">Editor</h2>
-<pre><code class="lang-js">$.getJSON(&#39;/pub/_opts.json&#39;, function(opts) {
+<pre><code class="language-js">$.getJSON(&#39;/pub/_opts.json&#39;, function(opts) {
   var generator = require(&#39;pub-generator&#39;)(opts)
   generator.load(function(err) {
     var $edit = $(&#39;textarea.editor&#39;)
@@ -175,15 +168,14 @@ generator.load = function load(cb) {
         $edit.val())
     })
   })
-})
-</code></pre>
+})</code></pre>
 </div>
 
 </div></section>
 
 <section id="instant-preview" class="slide"><div>
 <div data-render-html="/boston-js#instant-preview"><h2 id="instant-preview">Instant Preview</h2>
-<pre><code class="lang-js">generator.on(&#39;updatedText&#39;, function(href) {
+<pre><code class="language-js">generator.on(&#39;updatedText&#39;, function(href) {
   var fragment = generator.fragment$[href]
   var $html = $(&#39;[data-render-html=&quot;&#39; + href + &#39;&quot;]&#39;)
   $html.html(generator.renderHtml(fragment))
@@ -191,8 +183,7 @@ generator.load = function load(cb) {
 
 generator.on(&#39;nav&#39;, function(href) {
   updatePage()             // uses [data-render-page]
-}
-</code></pre>
+}</code></pre>
 </div>
 
 </div></section>
@@ -205,11 +196,11 @@ generator.on(&#39;nav&#39;, function(href) {
 </div>
 
 <script>window.pubRef = {"href":"/boston-js","relPath":"."};</script>
-<script src="./js/jquery-1.11.3.min.js" ></script>
+<script src="./js/jquery-1.12.4.min.js" ></script>
 <script src="./shower/shower.min.js" ></script>
-<script src="./js/highlight-0.2.3.min.js" ></script>
-<script src="./js/pub-pkg-highlight-0.2.3.js" ></script>
-<script src="./server/pub-ux.js" ></script>
+<script src="./js/highlight-9.15.6.min.js" ></script>
+<script src="./js/pub-pkg-highlight.js" ></script>
+<script src="./pub/pub-ux.js" ></script>
 <!-- photoCredit -->
 <!-- copyright -->
 </body>

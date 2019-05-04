@@ -19,7 +19,7 @@ var opts = module.exports = {
 
   outputs: [
     {
-      path:'./out',
+      path:'./docs',
       relPaths:true
     }
   ],
