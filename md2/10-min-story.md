@@ -40,7 +40,7 @@ background-image: /images/run2.jpg
 
 ---- ----
 
-## Just ONE file<br>With 1 or 2, or lots of pages in it
+## Just ONE file - With 1 or 2, or lots of pages in it
 
 ---- ----
 
@@ -60,7 +60,7 @@ background-image: /images/run2.jpg
 
 ---- ----
 
-## People should be able read<br> what you write<br> online
+## People should be able read what you write online
 
 ---- ----
 

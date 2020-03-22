@@ -9,7 +9,7 @@
 
 ## And it saves the stuff you write in a file
 
-## Just ONE file<br>With 1 or 2, or lots of pages in it
+## Just ONE file, With 1 or 2, or lots of pages in it
 
 ## Sound familiar?
 
@@ -19,7 +19,7 @@
 
 ## It's 2015
 
-## People should be able read<br> what you write<br> online
+## People should be able read what you write online
 
 ## hmmm, HTML?
 
@@ -51,7 +51,7 @@
 
     # more markdown
 
-## And this editor tool turns *that*<br>into HTML
+## And this editor tool turns *that* into HTML
 
 ## SO, who crafts the HTML and CSS?
 
@@ -67,7 +67,7 @@
 
 ## They use another editor
 
-## And how do the HTML and CSS<br>get from the designer<br>to **my** content editor?
+## And how do the HTML and CSS get from the designer to **my** content editor?
 
 ## Packages
 

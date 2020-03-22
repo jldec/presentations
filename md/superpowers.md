@@ -1,6 +1,7 @@
 # superpowers
 
-## five superpowers <br> from node and javascript
+## five superpowers 
+from node and javascript
 
 ## 1. http.createServer().listen()
 - javascript on the server
