@@ -24,7 +24,6 @@
 
 <img src="./images/water.jpg" class="cover width" alt="background image">
 </div></section>
-
 <section id="overview" class="slide"><div>
 <h1 id="pub-server">pub-server</h1>
 <ul>
@@ -37,7 +36,6 @@
 
 
 </div></section>
-
 <section id="generator" class="slide"><div>
 <h2 id="generator">Generator</h2>
 <pre><code class="language-js">var generator = this;
@@ -52,7 +50,6 @@ generator.load = function load(cb) {
 
 
 </div></section>
-
 <section id="compile-templates" class="slide"><div>
 <h2 id="compiletemplates">compileTemplates</h2>
 <pre><code class="language-js">function compileTemplates(templateFragments) {
@@ -65,7 +62,6 @@ generator.load = function load(cb) {
 
 
 </div></section>
-
 <section id="layout-template" class="slide"><div>
 <h2 id="sample-layout-template">Sample Layout Template</h2>
 <pre><code class="language-html">&lt;!DOCTYPE html&gt;
@@ -81,7 +77,6 @@ generator.load = function load(cb) {
 
 
 </div></section>
-
 <section id="render-page" class="slide"><div>
 <h2 id="renderpage-helper">renderPage helper</h2>
 <pre><code class="language-js">handlebars.registerHelper(&#39;renderPage&#39;, function() {
@@ -93,7 +88,6 @@ generator.load = function load(cb) {
 
 
 </div></section>
-
 <section id="default-page-template" class="slide"><div>
 <h2 id="sample-page-template">Sample Page Template</h2>
 <pre><code class="language-html">&lt;div class=&quot;container&quot;&gt;
@@ -108,7 +102,6 @@ generator.load = function load(cb) {
 
 
 </div></section>
-
 <section id="render-html" class="slide"><div>
 <h2 id="html-helper">html helper</h2>
 <pre><code class="language-js">hb.registerHelper(&#39;html&#39;, function() {
@@ -119,7 +112,6 @@ generator.load = function load(cb) {
 
 
 </div></section>
-
 <section id="server" class="slide"><div>
 <h2 id="server">Server</h2>
 <pre><code class="language-js">generator.load(function() {
@@ -136,7 +128,6 @@ generator.load = function load(cb) {
 
 
 </div></section>
-
 <section id="editor" class="slide"><div>
 <h2 id="editor">Editor</h2>
 <pre><code class="language-js">$.getJSON(&#39;/pub/_opts.json&#39;, function(opts) {
@@ -153,7 +144,6 @@ generator.load = function load(cb) {
 
 
 </div></section>
-
 <section id="instant-preview" class="slide"><div>
 <h2 id="instant-preview">Instant Preview</h2>
 <pre><code class="language-js">generator.on(&#39;updatedText&#39;, function(href) {
@@ -169,10 +159,9 @@ generator.on(&#39;nav&#39;, function(href) {
 
 </div></section>
 
-
 <div class="progress"></div>
 
-<nav id="nav">
+<nav id="nav" onclick="">
 <ul><li>&#x3D;
 <ul>
 <li><a href="./">GitHub demo</a></li>

@@ -4,7 +4,7 @@
   "description": "pub-server and pubblz presentations",
   "main": "server.js",
   "dependencies": {
-    "pub-theme-shower": "^2.0.1"
+    "pub-theme-shower": "^2.0.2"
   },
   "repository": {
     "type": "git",
