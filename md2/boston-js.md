@@ -1,10 +1,12 @@
 ---- /boston-js ----
 name: BostonJS
 
+# BostonJS meetup
+July 30, 2015
 
 ---- #cover ----
+background-image: /images/water.jpg
 
-![](/images/water.jpg)
 ## pub-server demo
 BostonJS meetup - July 30, 2015
 

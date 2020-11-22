@@ -1,7 +1,7 @@
 # What is pubblz?
 
 ## Pubblz
-![](/images/cover.jpg)
+![](/images/cover.jpg ".cover height")
 a new tool for publishing
 
 ## What is it?

@@ -1,9 +1,9 @@
 # What if
 
 ## What if...
-![](/images/cover.jpg)
+![](/images/cover.jpg  ".cover height")
 
-## What if you had an editor
+## What if you had an editor?
 
 ## An app you use to write stuff
 
@@ -23,7 +23,7 @@
 
 ## hmmm, HTML?
 
-## Yes!
+## !+ Yes!
 
 ## So where's this editor?
 - umm...

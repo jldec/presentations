@@ -13,8 +13,7 @@ var opts = module.exports = {
   ],
 
   pkgs: [
-    'pub-theme-shower-ribbon',
-    'pub-pkg-highlight'
+    'pub-theme-shower'
   ],
 
   outputs: [
@@ -25,5 +24,7 @@ var opts = module.exports = {
   ],
 
   injectCss: '/css/extra.css',
-  noRobots: true
+  noRobots: true,
+  noEditor: true,
+  jquery: false
 }

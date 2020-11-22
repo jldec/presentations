@@ -1,7 +1,7 @@
 # code wins
 
 ## code wins
-![](/images/boston.jpg)
+![](/images/boston.jpg ".cover width")
 
 ## code wins
 - this term is used in the context of software project management
