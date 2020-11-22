@@ -1,10 +1,10 @@
 {
   "name": "jldec-presentations",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "pub-server and pubblz presentations",
   "main": "server.js",
   "dependencies": {
-    "pub-theme-shower": "^2.0.0"
+    "pub-theme-shower": "^2.0.1"
   },
   "repository": {
     "type": "git",
